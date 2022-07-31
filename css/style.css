@@ -284,3 +284,28 @@ header nav img{
 	    margin-bottom: 18px;
 	}
 }
+    #bluebox {
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background: #1C6EA4;
+    }
+    body#tinymce {
+    background: #FFFFFF
+    }
+    #tittleshadow {
+        text-shadow: 1px 0px 1px #975252, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC, 2px 2px 2px rgba(206,89,55,0);
+        color: #E7671D;
+        background: #FFFFFF;
+        }
+        
+	#secondpage p, #secondpage h1{
+		background-color: green;
+		padding: 50px 0px;
+		margin-block-end: 40px;
+		position: relative;
+		text-align: right;
+		box-sizing: border-box;
+		color: yellow;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		text-emphasis-color: red;
+	}	
