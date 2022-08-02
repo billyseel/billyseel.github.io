@@ -2,32 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/a11a0944ae.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&family=Noto+Serif+TC&display=swap" rel="stylesheet">
-        
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    
-    
-
-    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+     
     <title>U Hiking</title>
 </head>
 <body>
-    <header>
+  <header>
     <div class="container">
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-fluid">            
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img src="uhike.png">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,28 +28,28 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="hiking options.html">Hiking Options</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Clubs
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="Youth Club.html">Youth Club</a></li>
+                    <li><a class="dropdown-item" href="Over 40 Club.html">Over 40 Club</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://blog.feedspot.com/hiking_blogs/">Hiking Blogs</a></li>
+                  </ul>                
+                </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" href="Galary Club.html">Photo Albums</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="d-flex search-bar" role="search" action="http://www.google.com/search" method="get">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
@@ -69,28 +61,29 @@
   <div class="container-fluid bg-light p-5">
   <div class="container">
     <div class="col-md-12">
-      <h1 class="display-4">LET'S KEEP STRONG AND WELL</h1>
-      <p class="lead">Do Your Best We Do The Rest</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Join Us</a>
+      <h4 class="display-6 text-danger text-center"><em>COME HIKE WITH US</em></h4>
+      <p class="lead text-center"><em>Do Your Best We Do The Rest</em></p>
+      <a class="btn btn-danger btn-lg" href="#" role="button">Join Us</a>
     </div>
+  </div>
   </div>
 </div>
 </section>
 <!--介簡的區塊-->
     <section id="second">
-        <div class="container">
+      <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2 text-center">
-                <h3>EXPERIENCE YOUR LIFE CHANGING</h3>
+                <h4 class='text-danger'><em>EXPERIENCE A LIFE CHANGING</em></h4>
                 <div class='row'>
-                  <div class='col-md-4 text-center'>
+                  <div class='col-md-2 text-center'>
                     <img src='uhike.png'>
                     <h5>U HIKING</h5>
                   </div>
-                  <div class='col-md-8 text-left'>
-                    <p class='lead'>Join us during your free time and you will see results.</p>
-                    <p>There are many activies to keep you connected with others as well as keep you strong.</p>
-                    <p>After your first activity things will get into shape and you will start to enjoy going out often.</p>
+                  <div class='col-md-10 text-left'>
+                    <p><em>Join us during your free time and after a little while you will see results.</em></p>
+                    <p><em>There are many activies to keep you connected with others and keep you strong.</em></p>
+                    <p><em>Take your first step and things will get into shape and you will enjoy it often.</em></p>
                   </div>
                 </div>
             </div>
@@ -98,61 +91,62 @@
     </div>
 </section>
 <!--相片的區塊-->
-<section id='latest'>       
+<section id='latest'>  
+  <div class="container-fluid bg-light p-5">   
     <div class="container">
     <div class='row'>
-    <div class='col-md-12 text-center'>
-        <h3>OUR OPTIONS</h3>
+    <div class='col-md-12 text-left'>
+        <h3 class="text-danger"><em>OUR OPTIONS</em></h3>
         <!--第一張相片-->
       <div class='row'>
-        <div class='col-md-4 text-left'>
+        <div class='col-md-4 text-center'>
             <div class='outer'>
-              <a href='single.html'>
+              <a href="Youth Club.html">
                 <div class='upper'>
-                <img src='images.jpeg'>
+                <img src='images.jpeg' alt="description"  height="250" width="250">
                 </div>
                 <div class='lower'>
-                  <h3>Next Outing July 30</h3>
-                  <span>Enrol Now</span>
-                  <h4>Price：NTD 600</h4>
-                  <span><i class="fas fa-map-marker-alt"></i> Taipei City Short Route</span><br>
-                  <span><i class="far fa-clock"></i> Jul 30, 2022 07:00PM</span>
+                  <h3>Youth Club Gateway</h3>
+                  <span><i class="fa-solid fa-bell fa-shake"></i>Enrol From Here</span>
+                  <i class="fa-regular fa-badge-dollar"></i><h4>Price：NTD 800/Year</h4>
+                  <span><i class="fas fa-map-marker-alt"></i> Taipei City Long Routes</span><br>
+                  <span><i class="far fa-clock"></i> Trips Start at - 09:00PM</span>
                 </div>
               </a>
             </div>
           </div>
         <!--第二張相片-->
-        <div class='col-md-4 text-left'>
+        <div class='col-md-4 text-center'>
             <div class='outer'>
-              <a href='single.html'>
+              <a href="Over 40 Club.html">
                 <div class='upper'>
-                <img src='images 2.jpeg'>
+                <img src='images 2.jpeg' alt="description" height="250" width="250">
                 </div>
                 <div class='lower'>
-                  <h3>Next Outing Aug 15</h3>
-                  <span>Enrol Now</span>
-                  <h4>Price：NTD 800</h4>
-                  <span><i class="fas fa-map-marker-alt"></i> Taipei City Middle Route</span><br>
-                  <span><i class="far fa-clock"></i> Aug 15, 2022 07:00PM</span>
+                  <h3>Over 40 Club Gateway</h3>
+                  <span><i class="fa-solid fa-bell fa-shake"></i>Enrol From Here</span>
+                  <h4>Price：NTD 600/Year</h4>
+                  <span><i class="fas fa-map-marker-alt"></i> Taipei City Short Routes</span><br>
+                  <span><i class="far fa-clock"></i> Trips Start at - 07:00PM</span>
                 </div>
-              </a>
+              </a>  
             </div>
           </div>
         <!--第三張相片-->
-        <div class='col-md-4 text-left'>
+        <div class='col-md-4 text-center'>
           <div class='outer'>
-            <a href='single.html'>
+            <a href="Galary Club.html">
               <div class='upper'>
-              <img src='images4.jpeg'>
+              <img src='images4.jpeg' alt="description" height="250" width="250"/>
               </div>
               <div class='lower'>
-                <h3>Next Outing Aug 30</h3>
-                <span>Enrol Now</span>
-                <h4>Price：NTD 1000</h4>
-                <span><i class="fas fa-map-marker-alt"></i> Taipei City Long Route</span><br>
-                <span><i class="far fa-clock"></i> Aug 30, 2022 07:00PM</span>
+                <h3>Photo Album Gateway</h3>
+                <span>Our Fun Moments</span>
+                <br><br><br>
+                <span><i class="fas fa-map-marker-alt"></i> Trails All Over Taiwan</span><br>
+                <span>Moutains And Plains</span>
               </div>
-            </a>
+            </a>  
           </div>
         </div>
 
@@ -160,34 +154,37 @@
         </div>
     <div>
     </div>
+    </div>  
 </section>
+
 <!--Email區塊-->
 <section id='email'>
     <div class="container">
       <div class='row'>
-      <div class='col-md-8 offset-md-2 text-center'>
-        <h3>HIKING - share your experience.</h3>
+      <div class='col-md-8 offset-md-2 text-left'>
+        <h3>Share your - HIKING - experience.</h3>
       </div>
       </div>
       <div class='row'>
       <div class='col-md-8 offset-md-2 text-left'>		
-      <p>I need to edit this part later on</p>        		  	
+      <p><em>Send your email to get information on our next trip details.</em></p>        		  	
         <div class="input-group input-group-lg">
         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Your email address here">
       </div>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Send</a>
+      <a class="btn btn-danger btn-lg" href="faizalre@yahoo.com.br" role="button">Send</a>
       </div>
       </div>
     </div>
   </section>
   <!--footer的區塊-->
 <footer>
-      
+  <div class="container-fluid bg-light p-5">  
     <div class="container">
       <div class='row'>
       <div class='col-md-4 text-left'>
         <img src='uhike.png' width='85'>
-        <p>This is something to give it a try. No regrests after this.</p>
+        <p>Page Done By 吳瑞曼</p>
+        <p>Student ID 105544661</p>
       </div>
       <div class='col-md-4 text-left'>
         <h4>Connect</h4>
@@ -197,7 +194,669 @@
         </ul>
         <ul>
             <li><a href='test1.html'>Common Questions</a></li>
-            <li><a href='contact.html'>Contact Us</a></li>
+            <li><a href='contact.html'>Other locations</a></li>
+        </ul>             
+      </div>
+      <div class='col-md-4 text-left'>
+        <h4>Contact Us</h4>
+        <p>Around Taipei City Area<br>
+         Phone: (886) 0960721183<br>
+         E-Mail: <a href='mailto:faizalre@hotmail.com'>faizalre@hotmail.com</a>
+          </p>
+      </div>
+      </div>
+    </div>          
+  
+  </footer>
+
+</body>
+</html>
+
+
+
+<!--hiking options -->
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a11a0944ae.js" crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <link href="css/style.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+       
+      <title>U Hiking</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+      <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid">            
+            <a class="navbar-brand" href="index.html">
+              <img src="uhike.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hiking options.html">Hiking Options</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Clubs
+                  </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Youth Club.html">Youth Club</a></li>
+                      <li><a class="dropdown-item" href="Over 40 Club.html">Over 40 Club</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://blog.feedspot.com/hiking_blogs/">Hiking Blogs</a></li>
+                    </ul>                
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Galary Club.html">Photo Albums</a>
+                </li>
+              </ul>
+              <form class="d-flex search-bar" role="search" action="http://www.google.com/search" method="get">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+      </nav>
+      </div>
+  </header>
+  
+  <section>  
+    <div class="container-fluid bg-light p-5">   
+      <div class="container">
+      <div class='row'>
+      <div class='col-md-12 text-center'>
+        <h4 class="display-6 text-danger text-center"><em>HIKING OPTIONS</em></h4>
+        <p class="lead text-center"><em>Do Your Best We Do The Rest</em></p>
+          
+  </section>
+  
+  <section>
+  <div class="container-fluid bg-light p-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h2 class="text-danger"><strong><em>SHORT TRIP</em></strong></h2>
+        <H5><em> FOR BEGINNERS</em></H5>
+        <P><em>This kind of hiking is suitable for peole who are just getting started. That because it uses short routes and less peaks. 
+          These routes are also very close to the main cites. Like that those beginers would not have to travel long ways to attend. 
+          These outings usually start early morning or late afternoon when it's less hot. 
+          Depending on the trail the entire trip would have around 1 to 2 km.</em></P>
+      </div>
+      <div class="col">
+        <img src="images4.jpeg" class="rounded" alt="description" height="250" width="250">
+      </div>
+    </div><br>
+    <hr/>
+  
+    <div class="row" alt="description" height="252" width="252">
+      <div class="col-md-4">           
+        <img src="images.jpeg" class="rounded" alt="description" height="250" width="250">
+      </div>
+      <div class="col-md-8">
+        <h2 class="text-danger"><strong><em>MIDDLE TRIP</em></strong></h2>
+        <H5><em>SUITABLE FOR EVERAGE HIKERS</em></H5>
+        <P><em>This kind of hiking is suitable for peole who already went hiking a few times. That because it uses a little longer routes and some peaks. 
+          These routes are also close to the main cites. These locations make a lot easy for people to keep coming back for More
+          not having to travel a long way to attend. 
+          These outings usually start early morning or early afternoon so that there is enough time for poeple to come back. 
+          Depending on the trail the entire trip would have around 2 to 4km.</em></P>
+      </div>
+    </div><br>
+    <hr/>
+  
+    <div class="row">
+      <div class="col-md-8">
+        <h2 class="text-danger"><strong><em>LONG TRIP</em></strong></h2>
+        <H5><em>ON THE MOVE HIKERS</em></H5>
+        <P><em>This was section is for those who hike at least twice a month. The routes are longer than usual and there are often peaks to climb.
+          Being so its is not always easy to find trail near the cities. Reason why most of this hiking programs are requested by our members.
+          we usually dont have any specific time to depart or return. The trails are usually above 2km. We do not recomend any beginers or 
+          Elderly people to join.</em></P>
+      </div>
+      <div class="col">
+        <img src="images 2.jpeg" class="rounded" alt="description" height="250" width="250">
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  <footer>
+    <div class="container-fluid bg-light p-5">  
+      <div class="container">
+        <div class='row'>
+        <div class='col-md-4 text-left'>
+          <img src='uhike.png' width='85'>
+          <p>Page Done By 吳瑞曼</p>
+          <p>Student ID 105544661</p>
+        </div>
+        <div class='col-md-4 text-left'>
+          <h4>Connect</h4>
+          <ul>
+              <li><a href='index.html'>More Info</a></li>
+              <li><a href='all.html'>Schedule</a></li>
+          </ul>
+          <ul>
+              <li><a href='test1.html'>Common Questions</a></li>
+              <li><a href='contact.html'>Other locations</a></li>
+          </ul>             
+        </div>
+        <div class='col-md-4 text-left'>
+          <h4>Contact Us</h4>
+          <p>Around Taipei City Area<br>
+           Phone: (886) 0960721183<br>
+           E-Mail: <a href='mailto:faizalre@hotmail.com'>faizalre@hotmail.com</a>
+            </p>
+        </div>
+        </div>
+      </div>          
+    
+    </footer>
+  
+  
+  
+  </body>
+  </html>
+  
+  <!--youth club-->
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a11a0944ae.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+     
+    <title>U Hiking</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">            
+          <a class="navbar-brand" href="index.html">
+            <img src="uhike.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hiking options.html">Hiking Options</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Clubs
+                </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="Youth Club.html">Youth Club</a></li>
+                    <li><a class="dropdown-item" href="Over 40 Club.html">Over 40 Club</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://blog.feedspot.com/hiking_blogs/">Hiking Blogs</a></li>
+                  </ul>                
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Galary Club.html">Photo Albums</a>
+              </li>
+            </ul>
+            <form class="d-flex search-bar" role="search" action="http://www.google.com/search" method="get">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    </div>
+</header>
+<section id="intro">
+  <div class="container-fluid bg-light p-5">
+  <div class="container">
+    <div class="col-md-12">
+      <h4 class="display-6 text-danger text-center"><em>YOUTH CLUB GATEWAY</em></h4>
+      <p class="lead text-center"><em>Welcome To Our Team</em></p>
+      
+    </div>
+  </div>
+</div>
+</section>
+<br>
+<section>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+            <h5 class='text-danger'><em>WHY YOUTH CLUB & HOW TO JOIN</em></h5>
+            <div class='row'>
+              <div class='col-md-2 text-center'>
+                <img src="images 2.jpeg" class="rounded-circle" width="300" height="100">
+                <h6><em>JOINING THIS CLUB</em></h6>
+              </div>
+              <div class='col-md-10 text-left'>
+                <p><em>Youth club is the place where you will be able to meet young, strong and energetic people.
+                You will notice that just like you, the others will always be willing to go that extra mile.
+                Once you join and get to know others, you will see that we go beyond hiking. Members tend to find different activies in where their families can join.</em></p>
+                <p><em>To join simple send an email to faizalre@hotmail.com mentioning you name, age, location and things that you migth be interested in. Our group manager will find a group that suits you best.</em></p><br>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="latest">
+  <div class="container-fluid bg-white p-5"> 
+  <div class="outer">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="outer">
+          <img src="Eric hike.jpeg">
+        <h4><span><i class="fa-solid fa-quote-left"></i><em>I am happy being part of this team. Because of it i can keep a very healthy life.</em></span>
+          <i class="fa-solid fa-quote-right"></i>
+        </h4>
+      </div>
+      </div>
+      <div class="col-md-4 text-center text-danger">
+        <div class="outer">
+          <h1><span><em>_____________ OUR     HAPPY     MEMBERS   TESTIMONY _____________</em></span></h1>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="outer">
+          <img src="how i see.jpeg">
+          <h4><span><i class="fa-solid fa-quote-left"></i><em>I feel good when i complete a task and reach the peak. It changes the way i see things.</em>
+            <i class="fa-solid fa-quote-right"></i></span>
+          </h4>  
+        </div>
+      </div>
+    </div>
+
+    <br> <br>
+
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="outer">
+          <img src="friends and I.jpeg">
+          <h4><span><i class="fa-solid fa-quote-left"></i><em>We are a team and go everywhere together. We met here and been together ever since.</em></span>
+            <i class="fa-solid fa-quote-right"></i></h4>
+        </div>
+      </div>
+      
+      
+        <div class="col-md-4 text-center text-danger">
+          <div class="outer">
+            <img src="bg hiking2.jpeg">
+            <h4><em>STEP BY STEP TOWARDS FRIEDSHIP AND A HEALTH BODY __________________________</em></h4>
+          </div>
+        </div>
+      
+        
+        <div class="col-md-4 text-center">
+          <div class="outer">
+            <img src="family hiking.jpeg" alt="description" height="185">
+            <h4><span><i class="fa-solid fa-quote-left"></i><em>I could not ask more from my family. We all enjoy being out there. U HIKING has been part of us all.</em>
+              <i class="fa-solid fa-quote-right"></i></span>
+            </h4>  
+          </div>
+        </div>
+
+<br>
+    <div class="row">
+      
+      <div class="col-md-4 text-center">
+        <div class="tittleshadow">
+        <h4><em>KEEP HEALTHY</em></h4>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="tittleshadow">
+        <h4><em>KEEP STRONG</em></h4>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="tittleshadow">
+        <h4><em>KEEP TRYING</em></i></h4>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container-fluid bg-light p-5">  
+    <div class="container">
+      <div class='row'>
+      <div class='col-md-4 text-left'>
+        <img src='uhike.png' width='85'>
+        <p>Page Done By 吳瑞曼</p>
+        <p>Student ID 105544661</p>
+      </div>
+      <div class='col-md-4 text-left'>
+        <h4>Connect</h4>
+        <ul>
+            <li><a href='index.html'>More Info</a></li>
+            <li><a href='all.html'>Schedule</a></li>
+        </ul>
+        <ul>
+            <li><a href='test1.html'>Common Questions</a></li>
+            <li><a href='contact.html'>Other locations</a></li>
+        </ul>             
+      </div>
+      <div class='col-md-4 text-left'>
+        <h4>Contact Us</h4>
+        <p>Around Taipei City Area<br>
+         Phone: (886) 0960721183<br>
+         E-Mail: <a href='mailto:faizalre@hotmail.com'>faizalre@hotmail.com</a>
+          </p>
+      </div>
+      </div>
+    </div>          
+  </footer>
+
+</body>
+</html>
+
+<!--over 40 club-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a11a0944ae.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+     
+    <title>U Hiking</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">            
+          <a class="navbar-brand" href="index.html">
+            <img src="uhike.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Hiking Places.html">Hiking Places</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Clubs
+                </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="Youth Club.html">Youth Club</a></li>
+                    <li><a class="dropdown-item" href="Over 40 Club.html">Over 40 Club</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://blog.feedspot.com/hiking_blogs/">Hiking Blogs</a></li>
+                  </ul>                
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Galary Club.html">Photo Albums</a>
+              </li>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+            <h5 class="display-6 text-danger text-center"><em>OVER 40 CLUB GATEWAY</em></h5>
+            <p class="lead text-center"><em>Welcome To Our Team</em></p>
+            <div class='row'>
+              <div class='col-md-2 text-center'>
+                <img src="elderly1.jpeg" class="rounded-circle" width="300" height="100">
+                <h6><em>JOINING THIS CLUB</em></h6>
+              </div>
+              <div class='col-md-10 text-left'>
+                <p><em>Over 40 club tends to be our busiest clubs. I guess when age goes up we tend to care more about keeping fit.
+                Here people tend to do less or shorter trips but real often. we also advise do hiking often in a shorter trips rather than one long trip done once in a while.
+                Because of constant hiking programs we and the club members create many more other activities compared to the Youth Club.</em></p>
+                <p><em>To join simple send an email to faizalre@yahoo.com.br mentioning you name, age, location and things that you migth be interested in. Our group manager will find a group that suits you best.</em></p><br>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section>
+  <div class="container-fluid bg-light p-5">
+    
+  </div>
+</section>
+
+
+<footer>
+  <div class="container-fluid bg-light p-5">  
+    <div class="container">
+      <div class='row'>
+      <div class='col-md-4 text-left'>
+        <img src='uhike.png' width='85'>
+        <p>This is a test page</p>
+        <p>Under construction.</p>
+      </div>
+      <div class='col-md-4 text-left'>
+        <h4>Connect</h4>
+        <ul>
+            <li><a href='index.html'>More Info</a></li>
+            <li><a href='all.html'>Schedule</a></li>
+        </ul>
+        <ul>
+            <li><a href='test1.html'>Common Questions</a></li>
+            <li><a href='contact.html'>Other locations</a></li>
+        </ul>             
+      </div>
+      <div class='col-md-4 text-left'>
+        <h4>Contact Us</h4>
+        <p>Around Taipei City Area<br>
+         Phone: (886) 0960721183<br>
+         E-Mail: <a href='mailto:faizalre@hotmail.com'>faizalre@hotmail.com</a>
+          </p>
+      </div>
+      </div>
+    </div>          
+  
+  </footer>
+
+</body>
+</html>
+
+<!--galary club-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a11a0944ae.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+     
+    <title>U Hiking</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">            
+          <a class="navbar-brand" href="index.html">
+            <img src="uhike.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hiking options.html">Hiking Options</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Clubs
+                </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="Youth Club.html">Youth Club</a></li>
+                    <li><a class="dropdown-item" href="Over 40 Club.html">Over 40 Club</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://blog.feedspot.com/hiking_blogs/">Hiking Blogs</a></li>
+                  </ul>                
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Galary Club.html">Photo Albums</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    </div>
+</header>
+
+<section>
+  <div class="container-fluid bg-light p-5">
+    <div class="container">
+      <div class='row'>
+      <div class='col-md-12 text-center'>
+        <h6 class="display-6 text-danger text-center"><em>PHOTO ALBUM GALARY</em></h6>
+        <p class="lead text-center"><em>Photos From Places We Have Been</em></p>
+    <div class="row">
+          <div class="col-md-8 text-center">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="points to view.jpeg" class="d-block w-100" alt="description" width="250" height="280">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Routes.jpeg" class="d-block w-100" alt="description" width="250" height="280">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="hike taipei5.jpeg" class="d-block w-100" alt="description" width="250" height="280">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>    
+          <div class="col">
+            <img src="logo.png" class="img-thumbnail" alt="description" width="450" height="750">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img src="hike taipei.jpeg" class="img-thumbnail" alt="...">
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="hike taipei3.jpeg" class="img-thumbnail" alt="...">
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="hike taipei4.jpeg" class="img-thumbnail" alt="...">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          
+          <div class="col-md-4 text-center">
+            <img src="family hiking.jpeg" class="img-thumbnail" alt="description" width="300" height="150">
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="friends and I.jpeg" class="img-thumbnail" alt="description" width="330" height="350">
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="elderly1.jpeg" class="img-thumbnail" alt="description" width="330" height="450">
+          </div>
+        </div><br><br>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h5>To share your photos - Give your file to your team leader.</h5>
+          </div>
+        </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container-fluid bg-light p-5">  
+    <div class="container">
+      <div class='row'>
+      <div class='col-md-4 text-left'>
+        <img src='uhike.png' width='85'>
+        <p>Page Done By 吳瑞曼</p>
+        <p>Student ID 105544661</p>
+      </div>
+      <div class='col-md-4 text-left'>
+        <h4>Connect</h4>
+        <ul>
+            <li><a href='index.html'>More Info</a></li>
+            <li><a href='all.html'>Schedule</a></li>
+        </ul>
+        <ul>
+            <li><a href='test1.html'>Common Questions</a></li>
+            <li><a href='contact.html'>Other locations</a></li>
         </ul>             
       </div>
       <div class='col-md-4 text-left'>
